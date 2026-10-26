@@ -1,0 +1,6 @@
+# Never commit generated keys/certs or local secrets
+*.key
+*.crt
+*.pem
+.env
+.DS_Store

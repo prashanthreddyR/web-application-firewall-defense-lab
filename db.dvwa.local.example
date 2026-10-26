@@ -1,0 +1,15 @@
+;
+; BIND data file for dvwa.local
+; Replace <UBUNTU_IP> with your Ubuntu VM's IP address.
+;
+$TTL    604800
+@       IN      SOA     ns.dvwa.local. admin.dvwa.local. (
+                        1          ; Serial
+                        604800     ; Refresh
+                        86400      ; Retry
+                        2419200    ; Expire
+                        604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns.dvwa.local.
+ns      IN      A       <UBUNTU_IP>
+www     IN      A       <UBUNTU_IP>

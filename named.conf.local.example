@@ -1,0 +1,5 @@
+// Append to /etc/bind/named.conf.local
+zone "dvwa.local" {
+    type master;
+    file "/etc/bind/zones/db.dvwa.local";
+};

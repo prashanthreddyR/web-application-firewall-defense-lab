@@ -1,0 +1,3 @@
+# Optional: renders README.md as a site when GitHub Pages is enabled
+theme: jekyll-theme-minimal
+title: Web Application Firewall Home Lab using SafeLine WAF
